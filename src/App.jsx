@@ -67,7 +67,9 @@ const App = () => {
           </div>
 
           {/* Credit Card Component */}
-          <AnimatedCard />
+          <div className="w-[6rem]">
+            <AnimatedCard />
+          </div>
 
           {/* Website URL */}
           <motion.div

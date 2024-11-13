@@ -65,7 +65,7 @@ const AnimatedCard = () => {
         <motion.img
           src={card}
           alt="Stanbic Credit Card"
-          className="relative w-24 transform-gpu"
+          className="relative w-[6rem]  transform-gpu"
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.2 }}
