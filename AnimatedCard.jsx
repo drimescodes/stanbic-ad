@@ -1,4 +1,4 @@
-import { motion, useMotionValue, useTransform, useSpring } from "framer-motion";
+import { motion, useMotionValue, useTransform, useSpring } from "motion/react";
 import { card } from "./src/assets";
 const AnimatedCard = () => {
   // Mouse move rotation logic with increased rotation range
