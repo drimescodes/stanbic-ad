@@ -1,5 +1,5 @@
 import { motion, useMotionValue, useTransform, useSpring } from "framer-motion";
-
+import { card } from "./src/assets";
 const AnimatedCard = () => {
   // Mouse move rotation logic with increased rotation range
   const x = useMotionValue(0);
@@ -63,7 +63,7 @@ const AnimatedCard = () => {
 
         {/* Credit Card Image */}
         <motion.img
-          src="/card.png"
+          src={card}
           alt="Stanbic Credit Card"
           className="relative w-24 transform-gpu"
           initial={{ opacity: 0, y: 20 }}

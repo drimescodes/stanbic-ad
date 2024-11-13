@@ -2,6 +2,7 @@ import { motion } from "motion/react";
 import { Search } from "lucide-react";
 import AnimatedCard from "../AnimatedCard";
 import TypewriterText from "./Typewriter";
+import { logo, lady_blue } from "./assets";
 
 const App = () => {
   return (
@@ -12,7 +13,7 @@ const App = () => {
         <div
           className="absolute inset-0 scale-105 transform bg-cover bg-right-bottom transition-transform duration-300"
           style={{
-            backgroundImage: "url('/lady-blue.png')",
+            backgroundImage: `url(${lady_blue})`,
           }}
         />
 
@@ -25,7 +26,7 @@ const App = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
           >
-            <img src="/logo.png" alt="Stanbic Bank Logo" className="h-10" />
+            <img src={logo} alt="Stanbic Bank Logo" className="h-10" />
 
             <div className="leading-[.4]">
               <p className="text-xl font-bold text-white">Stanbic Bank</p>
