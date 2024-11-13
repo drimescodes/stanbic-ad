@@ -67,7 +67,7 @@ const App = () => {
           </div>
 
           {/* Credit Card Component */}
-          <div className="w-[16rem]">
+          <div className="w-[6rem]">
             <AnimatedCard />
           </div>
 
