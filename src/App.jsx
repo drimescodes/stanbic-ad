@@ -67,13 +67,13 @@ const App = () => {
           </div>
 
           {/* Credit Card Component */}
-          <div className="w-[6rem]">
+          <div className="w-[16rem]">
             <AnimatedCard />
           </div>
 
           {/* Website URL */}
           <motion.div
-            className="absolute bottom-4 left-4 flex items-center gap-1 bg-blue-600 p-[.15rem] text-sm text-white"
+            className="absolute bottom-4 left-4 flex items-center gap-1 bg-blue-600 p-[.15rem] text-sm text-white "
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 1.2 }}
